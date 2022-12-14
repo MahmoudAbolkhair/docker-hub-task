@@ -1,1 +1,22 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+
+
+
+
+jobs:
+  bulid:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: "testing git hub action"
+        run: pwd
+     
+      - name: "testing printing"
+        run: echo Mahmoud
+        
