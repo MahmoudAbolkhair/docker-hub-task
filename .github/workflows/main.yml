@@ -16,5 +16,12 @@ jobs:
     steps:
       - name: "print all folder"
         run: ls
+      
+      
+      - uses: action checkout@v3
+      
+      - name: "print all folder"
+        run: ls
+
      
         
