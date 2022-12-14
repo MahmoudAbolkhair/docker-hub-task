@@ -14,9 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: "testing git hub action"
-        run: pwd
+      - name: "print all folder"
+        run: ls
      
-      - name: "testing printing"
-        run: echo Mahmoud
         
