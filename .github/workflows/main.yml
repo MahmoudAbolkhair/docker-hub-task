@@ -14,13 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: "print all folder"
+      - name: 'before'
         run: ls
       
       
-      - uses: action checkout@v3
+      - uses: action/checkout@v3
       
-      - name: "print all folder"
+      - name: 'after'
         run: ls
 
      
